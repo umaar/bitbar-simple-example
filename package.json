@@ -5,7 +5,8 @@
   "main": "ScotlandJS.8s.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "node ScotlandJS.8s.js"
+    "start": "node ScotlandJS.8s.js",
+    "update-deps": "ncu -u"
   },
   "repository": {
     "type": "git",
@@ -19,7 +20,7 @@
   },
   "homepage": "https://github.com/umaar/bitbar-simple-example#readme",
   "dependencies": {
-    "bitbar": "^0.3.0",
+    "bitbar": "^0.4.0",
     "twit": "^2.2.11"
   }
 }
